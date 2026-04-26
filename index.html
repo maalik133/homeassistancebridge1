@@ -1,24 +1,300 @@
-<!-- HOW IT WORKS -->
-<div class="card section">
-  <h2>How It Works</h2>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Eligibility Check</title>
 
-  <div class="step">
-    <div class="num">1</div>
-    <p>Tap the button to continue to the eligibility form.</p>
+<style>
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Inter", sans-serif;
+}
+
+body {
+  background: #f6f8fb;
+  color: #0f172a;
+}
+
+.wrap {
+  max-width: 430px;
+  margin: auto;
+  padding: 20px 16px 40px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 26px;
+  padding: 28px 20px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.06);
+}
+
+/* HERO */
+.pill {
+  display: inline-block;
+  background: #e9fff3;
+  color: #16a34a;
+  padding: 10px 18px;
+  border-radius: 999px;
+  font-weight: 700;
+  margin-bottom: 18px;
+}
+
+h1 {
+  font-size: 34px;
+  font-weight: 900;
+  line-height: 1.1;
+  margin-bottom: 14px;
+}
+
+.green {
+  color: #22c55e;
+}
+
+.sub {
+  color: #6b7280;
+  font-size: 18px;
+  margin-bottom: 22px;
+}
+
+/* CTA */
+.cta {
+  display: block;
+  width: 100%;
+  text-align: center;
+  background: linear-gradient(135deg,#22c55e,#15803d);
+  color: white;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 800;
+  border-radius: 20px;
+  text-decoration: none;
+  box-shadow: 0 12px 30px rgba(34,197,94,0.3);
+}
+
+/* SECURE */
+.secure {
+  margin-top: 18px;
+  background: #f1f3f7;
+  padding: 10px 18px;
+  border-radius: 999px;
+  display: inline-block;
+  font-weight: 600;
+  color: #6b7280;
+}
+
+/* HOW IT WORKS */
+.section {
+  margin-top: 22px;
+}
+
+.section h2 {
+  font-size: 24px;
+  font-weight: 900;
+  margin-bottom: 12px;
+}
+
+.step {
+  display: flex;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.num {
+  width: 30px;
+  height: 30px;
+  background: #2563eb;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+}
+
+.step p {
+  font-size: 17px;
+}
+
+/* PRIORITY */
+.priority {
+  margin-top: 18px;
+  border: 2px solid #22c55e;
+  background: #f0fdf4;
+  padding: 18px;
+  border-radius: 18px;
+}
+
+.priority h3 {
+  font-weight: 800;
+  margin-bottom: 6px;
+}
+
+.priority p {
+  color: #6b7280;
+  font-size: 16px;
+}
+
+/* FAQ */
+.faq {
+  margin-top: 22px;
+}
+
+.faq-item {
+  background: #fff;
+  border-radius: 18px;
+  padding: 16px;
+  margin-bottom: 10px;
+  border: 1px solid #e5e7eb;
+}
+
+.faq-q {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.faq-a {
+  display: none;
+  margin-top: 10px;
+  color: #6b7280;
+  font-size: 15px;
+}
+
+.faq-item.active .faq-a {
+  display: block;
+}
+
+/* FOOTER */
+.footer {
+  text-align: center;
+  color: #9ca3af;
+  font-size: 13px;
+  margin-top: 18px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="wrap">
+
+  <!-- HERO -->
+  <div class="card">
+    <div class="pill">• New assistance options available</div>
+
+    <h1>
+      Check Your <span class="green">Housing Assistance</span> Eligibility Today
+    </h1>
+
+    <p class="sub">
+      Continue to the eligibility form to check for housing-related assistance options in your area.
+    </p>
+
+    <a href="YOUR_LINK_HERE" class="cta">Check My Eligibility Now →</a>
+
+    <div class="secure">🔒 100% Secure & Confidential</div>
   </div>
 
-  <div class="step">
-    <div class="num">2</div>
-    <p>Enter basic information like name, address, zip code, email, phone number, and birthday.</p>
+  <!-- HOW IT WORKS -->
+  <div class="card section">
+    <h2>How It Works</h2>
+
+    <div class="step">
+      <div class="num">1</div>
+      <p>Tap the button to continue to the eligibility form.</p>
+    </div>
+
+    <div class="step">
+      <div class="num">2</div>
+      <p>Enter your name, address, zip code, email, and phone number.</p>
+    </div>
+
+    <div class="step">
+      <div class="num">3</div>
+      <p>Select your birth date and confirm your information is accurate.</p>
+    </div>
+
+    <div class="step">
+      <div class="num">4</div>
+      <p>Agree to the consent terms and press continue to proceed.</p>
+    </div>
+
+    <div class="step">
+      <div class="num">5</div>
+      <p>Continue through the next steps to see what options may be available.</p>
+    </div>
   </div>
 
-  <div class="step">
-    <div class="num">3</div>
-    <p>Confirm your information, agree to the required consent terms, then press continue.</p>
+  <!-- PRIORITY BOX -->
+  <div class="priority">
+    <h3>⚡ Priority Access Available</h3>
+    <p>
+      Applications are processed daily. Completing your check now may help you access assistance faster.
+    </p>
   </div>
 
-  <div class="step">
-    <div class="num">4</div>
-    <p>Continue through the next steps to see what housing-related options may be available.</p>
+  <a href="YOUR_LINK_HERE" class="cta" style="margin-top:16px;">
+    Start Eligibility Check →
+  </a>
+
+  <!-- FAQ -->
+  <div class="faq">
+    <h2 style="margin-bottom:10px;">FAQ</h2>
+
+    <div class="faq-item">
+      <div class="faq-q">Is this affiliated with the government? <span>+</span></div>
+      <div class="faq-a">
+        No. This eligibility page is not affiliated with any government agency.
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">What information is required? <span>+</span></div>
+      <div class="faq-a">
+        You may be asked for your name, address, zip code, email, phone number, and birth date.
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">Why do I need to confirm my information? <span>+</span></div>
+      <div class="faq-a">
+        The form requires confirmation that your information is accurate before continuing.
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">How long does it take? <span>+</span></div>
+      <div class="faq-a">
+        Starting the process usually takes just a couple of minutes.
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">What happens after I continue? <span>+</span></div>
+      <div class="faq-a">
+        After completing the form and consent step, you can continue to see available assistance options.
+      </div>
+    </div>
+
   </div>
+
+  <div class="footer">
+    Not affiliated with any government agency. Results vary.
+  </div>
+
 </div>
+
+<script>
+document.querySelectorAll(".faq-q").forEach(btn => {
+  btn.addEventListener("click", () => {
+    btn.parentElement.classList.toggle("active");
+  });
+});
+</script>
+
+</body>
+</html>
